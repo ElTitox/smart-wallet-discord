@@ -95,7 +95,7 @@ Asegúrate de tener instalado en tu equipo:
 
 ### 3. Configuración de Claves de API
 
-Crea tu archivo `.env` renombrando el archivo `secretkeys.py` (o creando uno nuevo desde cero en la raíz del proyecto) y configura tus credenciales:
+Crea tu archivo `.env` renombrando el archivo `secretkeys.example.py` (o creando uno nuevo desde cero en la raíz del proyecto) y configura tus credenciales:
 
 ```env
 DISCORD_TOKEN=tu_discord_bot_token_aqui
@@ -249,7 +249,7 @@ pip install -r requirements.txt
 
 ### 3. API Keys Configuration
 
-Create your `.env` file by renaming the template file `secretkeys.py` (or creating a new one from scratch in the project root) and populate your credentials:
+Create your `.env` file by renaming the template file `secretkeys.example.py` (or creating a new one from scratch in the project root) and populate your credentials:
 
 ```env
 DISCORD_TOKEN=your_discord_bot_token_here
