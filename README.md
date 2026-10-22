@@ -93,18 +93,14 @@ Asegúrate de tener instalado en tu equipo:
 
 ---
 
-### 3. Configuración de Llaves de API
+### 3. Configuración de Claves de API
 
-Crea un archivo `.env` en la raíz del proyecto (al mismo nivel que `financebot.py`):
+Crea tu archivo `.env` renombrando el archivo `secretkeys.py` (o creando uno nuevo desde cero en la raíz del proyecto) y configura tus credenciales:
 
 ```env
 DISCORD_TOKEN=tu_discord_bot_token_aqui
 GOOGLE_API_KEY=tu_gemini_api_key_aqui
 ```
-
-> ⚠️ **Nota de Seguridad:** Nunca subas tus archivos `.env` o `secretkeys.py` a GitHub. Asegúrate de que `.env` esté incluido en tu archivo `.gitignore`.
-
----
 
 ### 4. Configuración en el Portal de Desarrolladores de Discord
 
@@ -253,7 +249,7 @@ pip install -r requirements.txt
 
 ### 3. API Keys Configuration
 
-Create a `.env` file in the root directory of the project (at the same level as `financebot.py`):
+Create your `.env` file by renaming the template file `secretkeys.py` (or creating a new one from scratch in the project root) and populate your credentials:
 
 ```env
 DISCORD_TOKEN=your_discord_bot_token_here
