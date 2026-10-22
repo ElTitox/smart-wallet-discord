@@ -1,0 +1,12 @@
+# Secretos
+.env
+secretkeys.py
+
+# Datos locales de la billetera
+*.db
+*.db-journal
+
+# Python
+__pycache__/
+.venv/
+venv/
