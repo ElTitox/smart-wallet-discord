@@ -10,8 +10,6 @@ import yfinance as yf
 from dotenv import load_dotenv
 from google import genai
 from google.genai import types
-
-# Cargar variables desde el archivo .env
 load_dotenv()
 
 logging.getLogger("google_genai.models").setLevel(logging.ERROR)
